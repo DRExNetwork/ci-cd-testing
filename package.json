@@ -4,7 +4,7 @@
   "description": "test repo for github workflows",
   "main": "index.js",
   "scripts": {
-	"start": "node src",
+    "start": "node src",
     "test": "jest src/app.test.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "jest": "^29.6.4",
-    "supertest": "^6.3.3"
+    "supertest": "^6.3.3",
+    "vercel": "^32.1.0"
   }
 }
