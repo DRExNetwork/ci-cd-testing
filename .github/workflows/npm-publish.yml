@@ -30,7 +30,3 @@ jobs:
       run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
     - name: Build and Deploy on Vercel
       run: vercel --token=${{ secrets.VERCEL_TOKEN }} ./src
-    #- name: Build Project Artifacts
-    #  run: vercel build --cwd ./src --token=${{ secrets.VERCEL_TOKEN }}
-    #- name: Deploy Project Artifacts to Vercel
-    #  run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
